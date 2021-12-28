@@ -14,6 +14,7 @@ access
 1. Agar kita bisa pull dari semua device, maka update (di setiap device) sebuah file yang berlokasi di :
    
    C:\Users\USER\.docker\daemon.json   ---> ON WINDOWS
+   
    /etc/docker/daemon.json             ---> ON LINUX
  
    ATAU
