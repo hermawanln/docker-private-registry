@@ -3,7 +3,7 @@ services:
     docker-registry:
         image: registry:2
         volumes:
-        - "/tmp/docker_registry:/var/lib/registry"
+        - "/home/$USER/registry/docker_registry:/var/lib/registry"
         ports:
         - "5000:5000"
         restart: always
